@@ -75,3 +75,27 @@
 2024-09-03 19:07:33.3079 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
 2024-09-03 19:07:33.3079 Info Validating config: TargetNames=logfile, ConfigItems=13, FilePath=C:\Users\berko\source\repos\btk-akademi-aspnet-core-web-api\bsStoreApp\WebApi\nlog.config
 2024-09-03 19:07:33.3266 Info Configuration initialized.
+2024-09-04 14:12:15.9141 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-04 14:12:15.9365 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-04 14:12:15.9510 Info Validating config: TargetNames=logfile, ConfigItems=13, FilePath=C:\Users\berko\source\repos\btk-akademi-aspnet-core-web-api\bsStoreApp\WebApi\nlog.config
+2024-09-04 14:12:15.9636 Info Configuration initialized.
+2024-09-04 14:17:18.9258 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-04 14:17:18.9469 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-04 14:17:18.9619 Info Validating config: TargetNames=logfile, ConfigItems=13, FilePath=C:\Users\berko\source\repos\btk-akademi-aspnet-core-web-api\bsStoreApp\WebApi\nlog.config
+2024-09-04 14:17:18.9619 Info Configuration initialized.
+2024-09-04 14:17:54.2081 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-04 14:17:54.2282 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-04 14:17:54.2420 Info Validating config: TargetNames=logfile, ConfigItems=13, FilePath=C:\Users\berko\source\repos\btk-akademi-aspnet-core-web-api\bsStoreApp\WebApi\nlog.config
+2024-09-04 14:17:54.2420 Info Configuration initialized.
+2024-09-04 14:19:00.7787 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-04 14:19:00.7981 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-04 14:19:00.7981 Info Validating config: TargetNames=logfile, ConfigItems=13, FilePath=C:\Users\berko\source\repos\btk-akademi-aspnet-core-web-api\bsStoreApp\WebApi\nlog.config
+2024-09-04 14:19:00.8262 Info Configuration initialized.
+2024-09-04 14:19:11.6505 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-04 14:19:11.6617 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-04 14:19:11.6742 Info Validating config: TargetNames=logfile, ConfigItems=13, FilePath=C:\Users\berko\source\repos\btk-akademi-aspnet-core-web-api\bsStoreApp\WebApi\nlog.config
+2024-09-04 14:19:11.6742 Info Configuration initialized.
+2024-09-04 17:26:43.6916 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-09-04 17:26:43.7046 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.3.3.2683. Product version: 5.3.3+341c753ad4dce4dd476dcf0bc3ff2cfd9db76493. GlobalAssemblyCache: False
+2024-09-04 17:26:43.7046 Info Validating config: TargetNames=logfile, ConfigItems=13, FilePath=C:\Users\berko\source\repos\btk-akademi-aspnet-core-web-api\bsStoreApp\WebApi\nlog.config
+2024-09-04 17:26:43.7234 Info Configuration initialized.
