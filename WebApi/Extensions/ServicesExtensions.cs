@@ -20,13 +20,21 @@ namespace WebApi.Extensions
             services.AddScoped<IServiceManager, ServiceManager>();
 
         public static void ConfigureLoggerService(this IServiceCollection services) =>
-            services.AddSingleton<ILoggerService, LoggerManager>();
+            services.AddSingleton<ILoggerService, Services.LoggerManager>();
 
         public static void ConfigureActionFilters(this IServiceCollection services)
         {
             services.AddScoped<ValidationFilterAttribute>();
             services.AddScoped<PatchValidationFilterAttribute>();
             services.AddSingleton<LogFilterAttribute>();
+        }
+
+        public static void ConfigureCors(this IServiceCollection services)
+        {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().WithExposedHeaders("X-Pagination"));
+            });
         }
 
     }
