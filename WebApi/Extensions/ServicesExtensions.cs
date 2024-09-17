@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Entities.DataTransferObject;
+using Microsoft.EntityFrameworkCore;
 using Presentation.ActionFilters;
 using Repositories.Contracts;
 using Repositories.EFCore;
@@ -35,6 +36,10 @@ namespace WebApi.Extensions
             {
                 options.AddPolicy("CorsPolicy", builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader().WithExposedHeaders("X-Pagination"));
             });
+        }
+        public static void ConfigureDataShaper(this IServiceCollection services)
+        {
+            services.AddScoped<IDataShaper<BookDto>, DataShaper<BookDto>>();
         }
 
     }
